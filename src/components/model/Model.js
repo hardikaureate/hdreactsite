@@ -19,7 +19,7 @@ const Modal = ({ modalStyle, children, show, onClose, backdropStyle }) => {
             width: 60,
             height: 40,
             position: "absolute",
-            top: 0,
+            top: 50,
             right: 0,
             margin: "1rem",
             cursor: "pointer",
