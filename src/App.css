@@ -3059,9 +3059,17 @@ button:disabled,
     -webkit-animation: none;
     -ms-animation: none;
     animation: none;
-    background-color: transparent;
     box-shadow: none;
-    position: absolute;
+    /* background-color: transparent;
+    position: absolute; */
+}
+
+header#header {
+    overflow: hidden;
+    background-color: #232842;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #header.alt.style1 .logo strong {
