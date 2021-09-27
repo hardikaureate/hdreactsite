@@ -3907,3 +3907,12 @@ textarea {
     -webkit-transition-duration: 0.35s;
     transition-duration: 0.35s;
 }
+
+.inner.mainfooter {
+    display: flex;
+    align-items: center;
+}
+
+.inner.mainfooter {
+    padding-top: 0px !important;
+}

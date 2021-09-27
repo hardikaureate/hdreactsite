@@ -15,7 +15,7 @@ const CasestudyProjects = ({ projectData }) => {
                                 return (
                                     
                                         <div className="col-4" key={id}>
-                                            <span className="image fit projectimg">
+                                            <span className="image fit projectimg effect_lily">
                                             <a href={projectlink}><img src={image} alt="images" /></a>
                                             </span>
                                         </div>
