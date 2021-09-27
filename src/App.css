@@ -3799,8 +3799,8 @@ ul.links li {
 }
 
 .links a:before {
-    left: 0;
-    top: 5px;
+    left: -10px;
+    top: 20px;
     border-left: 3px solid #9bf1ff;
     border-top: 3px solid #9bf1ff;
     -webkit-transform: translate(100%, 50%);
@@ -3808,8 +3808,8 @@ ul.links li {
 }
 
 .links a:after {
-    right: 0;
-    bottom: 5px;
+    right: -10px;
+    bottom: 20px;
     border-right: 3px solid #9bf1ff;
     border-bottom: 3px solid #9bf1ff;
     -webkit-transform: translate(-100%, -50%);
