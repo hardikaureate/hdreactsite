@@ -14,7 +14,7 @@ const Header = () => {
             <div id="wrapper">
                 <header id="header" className="alt">
                     <div><Link to="/" className="logo"><strong>HD</strong> <span>by REACT</span></Link>{time}</div>
-                    <div className="mainmenu">
+                    <div className="mainmenu  menu menu-3">
                         <ul className="links">
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about">About</Link></li>

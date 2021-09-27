@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom'
 import HomeTextBanner from './HomeTextBanner'
 
+
 const InnerMenu = () => {
+
     return (
         <div>
             <div id="main">

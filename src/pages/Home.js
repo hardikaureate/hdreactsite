@@ -3,6 +3,7 @@ import Homebanner from '../components/Homebanner'
 import HomeContact from '../components/HomeContact'
 import InnerMenu from '../components/InnerMenu'
 import LazyLoad from 'react-lazyload'
+import MegaSlider from '../components/MegaSlider';
 
 // const Homebanner = React.lazy(() => import('../components/Homebanner'));
 // const HomeContact = React.lazy(() => import('../components/HomeContact'));
@@ -15,6 +16,9 @@ const Home = () => {
             </div>}> */}
             <LazyLoad height={500}>
                 <Homebanner />
+            </LazyLoad>
+            <LazyLoad height={500}>
+                <MegaSlider />
             </LazyLoad>
             <LazyLoad height={500}>
                 {/* <!-- Main --> */}
