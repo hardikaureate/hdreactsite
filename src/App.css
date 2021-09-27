@@ -3768,6 +3768,10 @@ ul.links li {
     letter-spacing: 2px;
 }
 
+textarea {
+    resize: none;
+}
+
 
 /*Navigation Menu*/
 

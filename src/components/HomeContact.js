@@ -15,6 +15,11 @@ const HomeContact = () => {
         setUser({ ...user, [name]: value })
     }
 
+    const formClear = () => {
+        setUser([])
+        //setUser("")
+    }
+
     const onSubmit = async (e) => {
         e.preventDefault()
 
@@ -68,7 +73,7 @@ const HomeContact = () => {
                                 </div>
                                 <ul className="actions">
                                     <li><input onClick={onSubmit} type="submit" value="Send Message" className="primary animate__zoomIn animate__animated" /></li>
-                                    <li><input type="reset" value="Clear" className="animate__zoomIn animate__animated"/></li>
+                                    <li><input onClick={formClear} type="reset" value="Clear" className="animate__zoomIn animate__animated"/></li>
                                 </ul>
                             </form>
                         </section>
