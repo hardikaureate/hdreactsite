@@ -3759,3 +3759,76 @@ ul.links li {
     font-size: 18px;
     letter-spacing: 2px;
 }
+
+
+/*Navigation Menu*/
+
+.links * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.links li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 1em;
+    padding: 0;
+}
+
+.links a {
+    /* padding: 0.5em 0.2em; */
+    margin: 0.1em 0;
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    text-decoration: none;
+    border: none;
+}
+
+.links a:before,
+.links a:after {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    opacity: 0;
+}
+
+.links a:before {
+    left: 0;
+    top: 5px;
+    border-left: 3px solid #9bf1ff;
+    border-top: 3px solid #9bf1ff;
+    -webkit-transform: translate(100%, 50%);
+    transform: translate(100%, 50%);
+}
+
+.links a:after {
+    right: 0;
+    bottom: 5px;
+    border-right: 3px solid #9bf1ff;
+    border-bottom: 3px solid #9bf1ff;
+    -webkit-transform: translate(-100%, -50%);
+    transform: translate(-100%, -50%);
+}
+
+.links a:hover,
+.links .current a {
+    color: #ffffff;
+}
+
+.links a:hover:before,
+.links .current a:before,
+.links a:hover:after,
+.links .current a:after {
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    opacity: 1;
+}
+
+
+/*Navigation Menu*/
