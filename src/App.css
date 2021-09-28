@@ -1440,6 +1440,10 @@ hr.major {
         width: 100% !important;
         height: 210px !important;
     }
+    .icon.alt:before {
+        height: 3em !important;
+        width: 3.3em !important;
+    }
 }
 
 @media screen and (max-width: 480px) {
