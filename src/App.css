@@ -1423,6 +1423,23 @@ hr.major {
         margin-right: 0px;
         padding: 3em 0 1em 0;
     }
+    .post-content-view {
+        padding-right: 0px !important;
+    }
+    .blog-title {
+        height: auto !important;
+        font-size: 17px;
+    }
+    .col-4.blog-post {
+        width: 100%;
+    }
+    .entry-header.blog__content {
+        margin-top: 35px;
+    }
+    img.blogpageimage {
+        width: 100% !important;
+        height: 210px !important;
+    }
 }
 
 @media screen and (max-width: 480px) {
