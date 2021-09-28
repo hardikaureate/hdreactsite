@@ -1445,6 +1445,12 @@ hr.major {
         width: 3em !important;
         line-height: 2em !important;
     }
+    ul.icons.socicon {
+        text-align: center;
+    }
+    ul.icons.socicon li {
+        padding-bottom: 0px !important;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -4342,4 +4348,8 @@ p.rptitle a {
 
 .post-content-view {
     padding-right: 30px;
+}
+
+ul.icons.socicon li {
+    padding-bottom: 10px;
 }

@@ -6,7 +6,7 @@ const SidebarSocialMedia = () => {
             <div className="blogcard">
                 <h3 className="biotitle">Social Network</h3>
                 <div className="sidebarsocial">
-                    <ul className="icons">
+                    <ul className="icons socicon">
                         <li><a href="https://twitter.com/hardik171192" target="_blank" className="icon soc brands alt fa-twitter"><span className="label">Twitter</span></a></li>
                         <li><a href="https://www.facebook.com/hardik.2626/" target="_blank" className="icon soc brands alt fa-facebook-f"><span className="label">Facebook</span></a></li>
                         <li><a href="https://www.instagram.com/hardikdevani/" target="_blank" className="icon soc brands alt fa-instagram"><span className="label">Instagram</span></a></li>
