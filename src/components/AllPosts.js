@@ -26,12 +26,12 @@ const AllPosts = () => {
                 <section id="two">
                     <div className="inner">
                         <div class="box alt">
-                            <div class="row gtr-50 gtr-uniform">
+                            <div class="row gtr-50 gtr-uniform moblay">
                                 {
                                     allblog.data.map((items, i) => {
                                         return (
                                             <>
-                                                <div class="col-4 blog-post">
+                                                <div class="col-4 blog-post mobblog">
                                                     <div class="header-thumbnail">
                                                         <Link class="blog__img" to={`post/${items.slug}`}>
                                                             <img className="blogpageimage" src={items.blogImage} />
