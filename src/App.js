@@ -13,6 +13,9 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import AllPosts from './components/AllPosts';
+import BlogDetailsPage from './components/BlogDetailsPage';
+import CategoryPost from './components/CategoryPost';
 
 function App() {
   return (
@@ -30,6 +33,15 @@ function App() {
         </Route>
         <Route path="/contact" exact>
           <Contact />
+        </Route>
+        <Route path="/post/:slug" exact>
+          <BlogDetailsPage />
+        </Route>
+        {/* <Route path="/category/:slug" exact>
+          <CategoryPost />
+        </Route> */}
+        <Route path="/post/" exact>
+          <AllPosts />
         </Route>
         <Footer />
       </Router>

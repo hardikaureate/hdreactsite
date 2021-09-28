@@ -13,12 +13,23 @@ const Header = () => {
         <div>
             <div id="wrapper">
                 <header id="header" className="alt">
-                    <div><Link to="/" className="logo"><strong>HD</strong> <span>by REACT</span></Link>{time}</div>
-                    <div className="mainmenu  menu menu-3">
+                    <div className="sitelogo"><Link to="/" className="logo"><strong>HD</strong> <span>by REACT</span></Link>{time}</div>
+                    {/* <div className="mainmenu">
                         <ul className="links">
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about">About</Link></li>
                             <li><Link to="/portfolio">Portfolio</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
+                        </ul>
+                    </div> */}
+                    <div className="miniheader">
+                        <input className="menu-btn" type="checkbox" id="menu-btn" />
+                        <label classname="menu-icon" for="menu-btn"><span className="navicon"></span></label>
+                        <ul className="menu">
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/portfolio">Portfolio</Link></li>
+                            <li><Link to="/post">Blog</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
