@@ -43,7 +43,7 @@ const PostGrid = () => {
                                                         <div class="date_title">
                                                             <div class="post-meta mt-15">
                                                                 {/* <a href={`post/${items.slug}`}><img src={items.blogImage} alt="blogs" /></a> */}
-                                                                <div className="catlogo">HD</div>
+                                                                <div className="catlogo gridlogo">HD</div>
                                                             </div>
                                                             <div class="post_date_title">
                                                                 <Link to={`post/${items.slug}`}>{items.blogCategory}</Link>
