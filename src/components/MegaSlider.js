@@ -22,11 +22,11 @@ const MegaSlider = () => {
     };*/
 
     const images = [
-        "https://images.unsplash.com/photo-1549989476-69a92fa57c36",
-        "https://images.unsplash.com/photo-1517825738774-7de9363ef735",
-        "https://images.unsplash.com/photo-1550338861-b7cfeaf8ffd8",
-        "https://images.unsplash.com/photo-1549737328-8b9f3252b927",
-        "https://images.unsplash.com/photo-1552410260-0fd9b577afa6",
+        // "https://images.unsplash.com/photo-1549989476-69a92fa57c36",
+        // "https://images.unsplash.com/photo-1517825738774-7de9363ef735",
+        // "https://images.unsplash.com/photo-1550338861-b7cfeaf8ffd8",
+        // "https://images.unsplash.com/photo-1549737328-8b9f3252b927",
+        // "https://images.unsplash.com/photo-1552410260-0fd9b577afa6",
         "https://images.unsplash.com/photo-1549833284-6a7df91c1f65",
         "https://images.unsplash.com/photo-1618142990632-1afb1bd67e7c",
         "https://images.unsplash.com/photo-1550064824-8f993041ffd3"
