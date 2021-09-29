@@ -16,7 +16,7 @@ const AllPostListSidebar = () => {
                                     <img src={`/${items.blogImage}`} alt="img" />
                                 </div>
                                 <div className="titledate">
-                                    <p className="rptitle"><Link to={items.slug}>{items.blogTitle}</Link></p>
+                                    <p className="rptitle"><Link to={`/post/${items.slug}`}>{items.blogTitle}</Link></p>
                                     <p className="rpdate">{items.postedOn}</p>
                                 </div>
                             </div>
