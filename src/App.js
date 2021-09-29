@@ -16,11 +16,13 @@ import Contact from './pages/Contact';
 import AllPosts from './components/AllPosts';
 import BlogDetailsPage from './components/BlogDetailsPage';
 import CategoryPost from './components/CategoryPost';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
       <Router>
+      <ScrollToTop>
         <Header />
         <Route path="/" exact>
           <Home />
@@ -44,6 +46,7 @@ function App() {
           <AllPosts />
         </Route>
         <Footer />
+        </ScrollToTop>
       </Router>
     </div>
   );
